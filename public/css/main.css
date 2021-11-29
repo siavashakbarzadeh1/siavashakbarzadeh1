@@ -1,0 +1,471 @@
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    .active1{
+        background-color: #1E1E1D !important;
+        width:100%;
+        border-bottom:5px solid #f7f01f !important;
+        text-decoration: none !important;
+    }
+    .userName{
+        visibility: visible;
+        display:block;
+        
+     }
+     .btnExit{
+         visibility: visible;
+         display: block; 
+     }
+     .lineSep{
+         visibility: visible;
+         display: block; 
+     }
+    #tables{
+        display: none;
+        visibility: hidden;
+    }
+    #cards{
+        display: block;
+        visibility: visible;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+   /* #### Mobile Phones Landscape #### */
+   @media screen and (max-device-width: 640px) and (orientation: landscape){
+    .active1{
+        background-color: #1E1E1D !important;
+        border-bottom:5px solid #f7f01f !important;
+        width:100%;
+        text-decoration: none !important;
+    }
+    #tables{
+        display: block;
+        visibility: visible;
+    }
+    #cards{
+        display: none;
+        visibility: hidden;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+   /* #### Mobile Phones Portrait or Landscape #### */
+   @media screen and (max-device-width: 640px){
+    .active1{
+        background-color: #1E1E1D !important;
+        width:100%;
+        border-bottom:5px solid #f7f01f !important;
+        
+    }
+  
+    #tables{
+        display: none;
+        visibility: hidden;
+    }
+    #cards{
+        display: block;
+        visibility: visible;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+   /* #### iPhone 4+ Portrait or Landscape #### */
+   @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    .active1{
+        background-color: #1E1E1D!important;
+        width: 100%;
+        border-bottom:5px solid #f7f01f !important;
+
+    }
+    #tables{
+        display: none;
+        visibility: hidden;
+    }
+    #cards{
+        display: block;
+        visibility: visible;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+
+
+
+   /* #### iPhone 5 Portrait or Landscape #### */
+   @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    .active1{
+        background-color: #1E1E1D !important;
+        width:100% !important;
+        border-bottom:5px solid #f7f01f !important;
+    }
+    
+    #tables{
+        display: none;
+        visibility: hidden;
+    }
+    #cards{
+        display: block;
+        visibility: visible;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+
+
+
+   /* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+   @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+    .active1{
+        background-color: #1E1E1D !important;
+        width:100% !important;
+        border-bottom:5px solid #f7f01f !important;
+    }
+    #tables{
+        display: none;
+        visibility: hidden;
+    }
+    #cards{
+        display: block;
+        visibility: visible;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+
+
+
+
+   /* #### Tablets Portrait or Landscape #### */
+   @media screen and (min-device-width: 768px) and (max-device-width: 1022px){
+    .active1{
+        background-color: #1E1E1D !important;
+        width:100% !important;
+        border-bottom:5px solid #f7f01f !important;
+    }
+    .userName{
+        visibility: hidden;
+        display: none;
+        
+     }
+     .btnExit{
+         visibility: hidden;
+         display: none; 
+     }
+     .lineSep{
+         visibility: hidden;
+         display: none; 
+     }
+    #tables{
+        visibility: visible;
+        display: block;
+    }
+    #cards{
+        visibility: hidden;
+        display: none;
+    }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+   }
+
+
+
+
+   /* #### Desktops #### */
+   @media screen and (min-width: 1024px){
+    .active1{
+        background-color: #1E1E1D !important;;
+        width:100% !important;
+        border-bottom:5px solid #f7f01f !important;
+      
+    }
+    .userName{
+        visibility: hidden;
+        display: none;
+        
+     }
+     .btnExit{
+         visibility: hidden;
+         display: none; 
+     }
+     .lineSep{
+         visibility: hidden;
+         display: none; 
+     }
+    #accessibility{
+        display: none;
+        visibility: hidden;
+    }
+    #menuHam{
+        display: none;
+        visibility: hidden;
+    }
+    #tables{
+        visibility: visible;
+        display: block;
+    }
+    #cards{
+        visibility: hidden;
+        display: none;
+    }
+   }
+
+   
+   .rot{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    }
+   
+   
+
+    input[type='range'] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance:unset;
+
+      }
+      
+      .range-style {
+          margin-top: 10px;
+        width: 200px;
+        height: 5px;
+        padding: 10px;
+        background:lightsteelblue;
+        border-radius: 20px;
+        box-shadow: -2px -2px 8px white, 2px 2px 8px rgba(black, 0.5);
+      
+        @mixin track-style {
+          display:flex;
+          align-items: center;
+          height: 20px;
+          border-radius: 10px;
+          box-shadow: inset -2px -2px 8px blue, inset 2px 2px 8px rgba(black, 0.5);
+        }
+      
+        @mixin thumb-style {
+          position: relative;
+          top: -50%;
+          width: 40px;
+          height: 40px;
+          background-color: $primary;
+          background-image: linear-gradient(-45deg, rgba(white, 0.8), transparent);
+          border-radius: 50%;
+          box-shadow: -1px -1px 2px white, 1px 1px 2px rgba(black, 0.3);
+        }
+        &::-webkit-slider-runnable-track {
+          @include track-style;
+        }
+        &::-webkit-slider-thumb {
+          @include thumb-style;
+        }
+        &::-moz-range-track {
+          @include track-style;
+        }
+        &::-moz-range-thumb {
+          @include thumb-style;
+        }
+      }
+      .bg-color{
+          background-color: #004080 !important;
+      }
+   
+   
+      @media screen and (min-width: 1024px) {
+        .menuSize{
+
+            height: 80px;
+             line-height: 40px;
+             text-align: center;
+             list-style-image: none;
+         }
+         .access{
+             padding-top: 0px;
+             padding-bottom:45px;
+         }
+         .brand{
+        padding-bottom: 0px;
+        }
+        .userName{
+           visibility: hidden;
+           display: none;
+           
+        }
+        .btnExit{
+            visibility: hidden;
+            display: none; 
+        }
+        .lineSep{
+            visibility: hidden;
+            display: none; 
+        }
+       }
+       .userName{
+           text-align: center;
+        padding-left: 30px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+          color:#e0e0db;
+          text-transform: uppercase;
+       }
+       .btnExit{
+        margin-left: 10px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        width:150px;
+        /* border:solid 2px red; */
+       }
+       .lineSep{
+           background-color:#eaeae8;
+           /* border: solid 2px red; */
+           min-height: 2px;
+           margin-left:10px;
+           width: 100%;
+       }
+
+   
+.exit-a{
+    margin-left: 5px;
+ color: aliceblue !important;   
+ text-align: center;
+ font-size: 18px;
+border: solid 1px #fff;
+ display: block;
+ width: 140px;
+ height: 40px;
+ padding: 5px 0;
+ border-radius: 5px;
+}
+.exit-a:hover{
+    transition-duration: 2s;
+    background-color: #0578eb;
+    color:#fff;
+}
+
+.txtSize{
+
+ font-size: 20px;
+ font-weight:600;
+ text-transform: capitalize;
+ text-rendering:optimizeLegibility;
+ 
+}
+.text-dec{
+    text-decoration: none!important;
+}
+.text-dec:hover{
+    color: #f7f01f !important;
+} 
+.acc-btn{
+    float:right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 400px;
+    right:10px;
+    border:none;
+    outline: none;
+    z-index: 1;
+}
+.acc-btn img{
+    border:none;
+    outline: none;
+}
+.shapeNav{
+    border: solid 3px #0066cc;
+    padding: 0px;
+    border-radius: 10px;
+    height:51px;
+    text-align: center;
+    border-bottom: none;
+
+}
+.nav-link a:hover{
+background-color: #004080;
+color: #fff;
+}
+/* .nav-link:hover {
+background-color: #0066cc;
+color: #fff !important;
+border-radius: 10px !important;
+margin: 0px !important;
+padding: 0px !important;
+} */
+
+#mySideNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+/* design for ul li in join event */
+.desnav{
+    height: 70px !important;
+    line-height: 70px !important;
+ border:solid 3px #004080 !important;
+ border-radius: 10px;
+ background-color: #004080 !important;
+ 
+}
+.desnav li:hover{
+    background-color: #0578eb;
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 2s;
+}
+.desnav a{
+    color:#eaeae8 !important;
+    border-bottom: none;
+}
+.desnav a:link{
+    border-bottom: none !important;
+    background: none !important;
+
+}
+.linkshadow{
+    text-shadow: 5px 5px 10px #d1a515;
+}
+
+#sidebar{
+    padding: 0px !important;
+    float: left;
+    margin-left: 0px !important;
+}
+.logBtn{
+    width: 276px;
+    height:61px;
+    padding:10px 30px;
+}
+.logBtn span{
+    font-weight:bold;
+    font-size: 22px;
+    text-align: center;
+    padding-left:0px;
+    float: left;
+    text-overflow: ellipsis;
+}
+.hoverbtn:hover{
+    background-color:#003366!important;
+    
+}
+a.focus{
+    background-color: red;
+}

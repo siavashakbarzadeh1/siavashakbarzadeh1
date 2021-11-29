@@ -1,0 +1,23 @@
+.breadcrumb {
+  margin: 2px !important;
+  padding: 2px !important;
+}
+
+section#breadcrumbs {
+  background-color: #f8f8f8;
+  font-size: 15px;
+  padding-left: 0%;
+  border-bottom: 1px solid #ffffff;
+}
+
+.section.section-background-header.section-user-header::before {
+  background-color: #ffffff;
+}
+
+.nav-link.active {
+  border-bottom: 5px solid !important;
+}
+
+.menu-utente li.nav-item {
+  border-bottom: 1px solid #ffffff;
+}
